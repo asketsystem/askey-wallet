@@ -1,0 +1,25 @@
+Index: smart_contract/package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"name\": \"smart_contract\",\r\n  \"version\": \"1.0.0\",\r\n  \"description\": \"\",\r\n  \"main\": \"index.js\",\r\n  \"scripts\": {\r\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\r\n  },\r\n  \"author\": \"franckasket\",\r\n  \"license\": \"ISC\"\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/smart_contract/package.json b/smart_contract/package.json
+--- a/smart_contract/package.json	(revision b68594df276b7cc4236fd20abadd65f97e3ed790)
++++ b/smart_contract/package.json	(date 1640726431034)
+@@ -7,5 +7,13 @@
+     "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "author": "franckasket",
+-  "license": "ISC"
++  "license": "ISC",
++  "devDependencies": {
++    "@nomiclabs/hardhat-ethers": "^2.0.3",
++    "@nomiclabs/hardhat-waffle": "^2.0.1",
++    "chai": "^4.3.4",
++    "ethereum-waffle": "^3.4.0",
++    "ethers": "^5.5.2",
++    "hardhat": "^2.8.0"
++  }
+ }

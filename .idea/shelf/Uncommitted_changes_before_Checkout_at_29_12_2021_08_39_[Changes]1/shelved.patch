@@ -1,0 +1,75 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/vcs.xml	
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: client/src/index.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@import url(\"https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap\");\r\n\r\n* html {\r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  margin: 0;\r\n  font-family: \"Open Sans\", sans-serif;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n}\r\n\r\n.gradient-bg-welcome {\r\n  background-color:#0f0e13;\r\n  background-image: \r\n    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), \r\n    radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), \r\n    radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);\r\n}\r\n\r\n.gradient-bg-services {\r\n  background-color:#0f0e13;\r\n  background-image: \r\n    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), \r\n    radial-gradient(at 50% 100%, hsla(225,39%,25%,1) 0, transparent 50%);\r\n}\r\n\r\n.gradient-bg-transactions {\r\n  background-color: #0f0e13;\r\n  background-image: \r\n    radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 50%), \r\n    radial-gradient(at 50% 0%, hsla(225,39%,25%,1) 0, transparent 50%);\r\n}\r\n\r\n.gradient-bg-footer {\r\n  background-color: #0f0e13;\r\n  background-image: \r\n    radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 53%), \r\n    radial-gradient(at 50% 150%, hsla(339,49%,30%,1) 0, transparent 50%);\r\n}\r\n\r\n.blue-glassmorphism {\r\n  background: rgb(39, 51, 89, 0.4);\r\n  border-radius: 16px;\r\n  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);\r\n  backdrop-filter: blur(5px);\r\n  -webkit-backdrop-filter: blur(5px);\r\n  border: 1px solid rgba(0, 0, 0, 0.3);\r\n}\r\n\r\n/* white glassmorphism */\r\n.white-glassmorphism {\r\n  background: rgba(255, 255, 255, 0.05);\r\n  border-radius: 16px;\r\n  backdrop-filter: blur(5px);\r\n  -webkit-backdrop-filter: blur(5px);\r\n  border: 1px solid rgba(255, 255, 255, 0.3);\r\n}\r\n\r\n.eth-card {\r\n  background-color:#a099ff;\r\n  background-image: \r\n    radial-gradient(at 83% 67%, rgb(152, 231, 156) 0, transparent 58%), \r\n    radial-gradient(at 67% 20%, hsla(357,94%,71%,1) 0, transparent 59%), \r\n    radial-gradient(at 88% 35%, hsla(222,81%,65%,1) 0, transparent 50%), \r\n    radial-gradient(at 31% 91%, hsla(9,61%,61%,1) 0, transparent 52%), \r\n    radial-gradient(at 27% 71%, hsla(336,91%,65%,1) 0, transparent 49%), \r\n    radial-gradient(at 74% 89%, hsla(30,98%,65%,1) 0, transparent 51%), \r\n    radial-gradient(at 53% 75%, hsla(174,94%,68%,1) 0, transparent 45%);\r\n}\r\n\r\n.text-gradient {\r\n  background-color: #fff;\r\n  background-image: radial-gradient(at 4% 36%, hsla(0,0%,100%,1) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%);\r\n  -webkit-background-clip: text;\r\n  -webkit-text-fill-color: transparent;\r\n}\r\n\r\n@tailwind base;\r\n@tailwind components;\r\n@tailwind utilities;\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/client/src/index.css b/client/src/index.css
+--- a/client/src/index.css	
++++ b/client/src/index.css	
+@@ -14,32 +14,32 @@
+ }
+ 
+ .gradient-bg-welcome {
+-  background-color:#0f0e13;
++  background-color:#0e130e;
+   background-image: 
+     radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+-    radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
+-    radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
++    radial-gradient(at 50% 0%, rgb(10, 10, 10) 0, transparent 50%), 
++    radial-gradient(at 100% 0%, rgb(22, 21, 22) 0, transparent 50%);
+ }
+ 
+ .gradient-bg-services {
+   background-color:#0f0e13;
+   background-image: 
+     radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+-    radial-gradient(at 50% 100%, hsla(225,39%,25%,1) 0, transparent 50%);
++    radial-gradient(at 50% 100%, rgb(18, 18, 19) 0, transparent 50%);
+ }
+ 
+ .gradient-bg-transactions {
+   background-color: #0f0e13;
+   background-image: 
+     radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 50%), 
+-    radial-gradient(at 50% 0%, hsla(225,39%,25%,1) 0, transparent 50%);
++    radial-gradient(at 50% 0%, rgb(13, 13, 14) 0, transparent 50%);
+ }
+ 
+ .gradient-bg-footer {
+   background-color: #0f0e13;
+   background-image: 
+     radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 53%), 
+-    radial-gradient(at 50% 150%, hsla(339,49%,30%,1) 0, transparent 50%);
++    radial-gradient(at 50% 150%, rgb(19, 18, 18) 0, transparent 50%);
+ }
+ 
+ .blue-glassmorphism {
+@@ -57,7 +57,7 @@
+   border-radius: 16px;
+   backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(5px);
+-  border: 1px solid rgba(255, 255, 255, 0.3);
++  border: 1px solid rgba(17, 16, 16, 0.3);
+ }
+ 
+ .eth-card {
